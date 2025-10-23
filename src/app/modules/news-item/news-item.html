@@ -1,0 +1,20 @@
+<div class="news-item__container">
+  <div class="w-100 h-100 news-item__flex">
+    @if (isLoading$ | async) {
+      <div class="news-item__loader">
+        <app-loader [isLoading]="(isLoading$ | async)!"></app-loader>
+      </div>
+    } @else {
+      <div class="w-100 news-item__info">
+        <app-description
+          [author]="(item$ | async)!.author"
+          [points]="(item$ | async)!.points"
+          [text]="(item$ | async)!.text"
+          [title]="(item$ | async)!.title"
+        ></app-description>
+        <div class="news-item__divider"></div>
+        <app-comments [comments]="(item$ | async)!.children"></app-comments>
+      </div>
+    }
+  </div>
+</div>

@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --header_height: 4.5rem;
+    --footer_height: 4.5rem;
+}
+
+.t-root-content {
+    width: 100vw;
+    height: 100vh;
+}
+
+._expandable  {
+    align-items: flex-start !important;
+
+    .t-button ::ng-deep {
+        background: (--tui-background-neutral-1) !important;
+    }
+}
+
+@for $i from 0 through 100 {
+    .w-#{$i} { width: #{$i}#{"%"} }
+}
+  
+@for $i from 0 through 100 {
+    .h-#{$i} { height: #{$i}#{"%"} }
+}

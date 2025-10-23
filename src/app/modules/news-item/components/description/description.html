@@ -1,0 +1,14 @@
+<div class="description__container">
+  <div class="description__info">
+    <div class="description__title">{{ title() }}</div>
+  </div>
+  <div class="description__tags">
+    <tui-badge appearance="neutral" iconStart="@tui.user" size="xl">
+      {{ author() }}
+    </tui-badge>
+    <tui-badge appearance="accent" iconStart="@tui.star" size="xl">
+      {{ points() }}
+    </tui-badge>
+  </div>
+</div>
+<div class="description__text" [innerHTML]="text() "></div>

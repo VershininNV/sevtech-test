@@ -1,0 +1,15 @@
+<nav class="navbar">
+  <div class="navbar__logo">
+    <a href="/">
+      <img
+        [src]="
+          darkMode()
+            ? '/assets/images/logotype/logo_accent.png'
+            : '/assets/images/logotype/logo.png'
+        "
+      />
+      <span>Hacker News</span>
+    </a>
+  </div>
+  <app-theme-switcher></app-theme-switcher>
+</nav>

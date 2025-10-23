@@ -1,59 +1,67 @@
-# SevtechTest
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.6.
+# Hacker News
 
-## Development server
+Тестовое задание HackerNews для Севтех
 
-To start a local development server, run:
 
-```bash
-ng serve
-```
+# Стек технологий
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+**Клиент:** Angular 20, Taiga v4
 
-## Code scaffolding
+**Сервер:** Hacker News API
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
+# Скачивание проекта
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Скопируйте в командную строку, либо воспользуйтесь ПО для работы с репозиториями
 
 ```bash
-ng generate --help
+  git clone https://github.com/VershininNV/sevtech-test.git
 ```
 
-## Building
 
-To build the project run:
+# Запуск проекта с Docker
+
+Запустите командную строку из папки репозитория и выполните команду для создания образа:
 
 ```bash
-ng build
+  docker build -t sevtech-test .
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+После генерации образа, запустите его, выполнив команду:
 
 ```bash
-ng test
+  docker run -d -p 8080:80 sevtech-test
 ```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+В адресной строке браузера откройте:
 
 ```bash
-ng e2e
+  http://localhost:8080/
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+# Запуск проекта через npm
 
-## Additional Resources
+**Angular CLI:** 20.3.6
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Node:** 22.16.0 (В разделе "Совместимость версий" в документации указан диапазон версий Node.js ^20.19.0 || ^22.12.0 || ^24.0.0 для работы с проектами на Angular c версиями 20.2.x || 20.3.x)
+
+**Package Manager:** npm 10.9.2
+
+
+Запустите командную строку из папки репозитория и выполните команду для установки зависимостей:
+
+```bash
+  npm install
+```
+
+После установки зависимостей, запустите его, выполнив команду:
+
+```bash
+  npm run start
+```
+В адресной строке браузера откройте:
+
+```bash
+  http://localhost:4200/
+```
+

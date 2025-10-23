@@ -1,0 +1,29 @@
+<div class="sorter__container">
+  <div class="sorter__sign">
+    <form tuiGroup class="group" [collapsed]="true" [formGroup]="signForm">
+      <label appearance="" tuiBlock>
+        <input formControlName="sign" tuiBlock type="radio" value="<" />
+        Меньше
+      </label>
+
+      <label appearance="" tuiBlock>
+        <input formControlName="sign" tuiBlock type="radio" value=">" />
+        Больше
+      </label>
+    </form>
+  </div>
+  <tui-textfield class="sorter__rating">
+    <input tuiInputNumber placeholder="Рейтинг" [max]="10000" [(ngModel)]="value" (ngModelChange)="onSorterChange($event)" />
+
+    <button
+      size="s"
+      tuiButton
+      type="button"
+      iconStart="@tui.search"
+      appearance="accent"
+      [loading]="isLoading()"
+      [disabled]="isFullfilled()"
+      (click)="search()"
+    ></button>
+  </tui-textfield>
+</div>

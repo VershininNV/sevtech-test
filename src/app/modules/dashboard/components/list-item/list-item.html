@@ -1,0 +1,30 @@
+<div class="list-item__container">
+  <div class="list-item__badges">
+    <tui-badge class="list-item__author" appearance="neutral" iconStart="@tui.user" size="xl">
+      <div tuiFade>{{ item()?.author }}</div>
+    </tui-badge>
+    <div class="list-item__badges-group">
+      <tui-badge appearance="primary" iconStart="@tui.message-circle" size="xl">
+        {{ item()?.num_comments }}
+      </tui-badge>
+      <tui-badge appearance="accent" iconStart="@tui.star" size="xl">
+        {{ item()?.points }}
+      </tui-badge>
+    </div>
+  </div>
+  @if (!!item()?.url) {
+    <div class="list-item__description">
+      <a iconEnd="@tui.external-link" target="_blank" [href]="item()?.url" tuiLink>
+        {{ item()?.title }}</a
+      >
+    </div>
+  } @else {
+    <div class="list-item__description">
+      {{ item()?.title }}
+    </div>
+  }
+
+  <button tuiButton size="m" appearance="secondary" (click)="redirectToItemPage()">
+    Подробнее
+  </button>
+</div>

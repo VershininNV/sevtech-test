@@ -1,0 +1,21 @@
+.pagination {
+    &__container {
+        display: flex;
+        gap: 0.5rem;
+    }
+}
+
+.pagination_no-buttons ::ng-deep {
+    .t-content {
+        .t-button:first-of-type {
+            display: none;
+        }
+
+        .t-button:last-of-type {
+            display: none;
+        }
+    }
+
+}
+
+

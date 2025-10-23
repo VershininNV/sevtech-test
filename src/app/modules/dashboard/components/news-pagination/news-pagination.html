@@ -1,0 +1,28 @@
+<div class="pagination__container">
+  <button
+    class="pagination__button pagination__button_back"
+    size="s"
+    tuiButton
+    type="button"
+    [disabled]="isFirst()"
+    (click)="back()"
+  >
+    Предыдущая
+  </button>
+  <tui-pagination
+    class="pagination_no-buttons"
+    [index]="index()"
+    [length]="numberPages()"
+    (indexChange)="goToPage($event)"
+  />
+  <button
+    class="pagination__button pagination__button_next"
+    size="s"
+    tuiButton
+    type="button"
+    [disabled]="isLast()"
+    (click)="next()"
+  >
+    Следующая
+  </button>
+</div>
