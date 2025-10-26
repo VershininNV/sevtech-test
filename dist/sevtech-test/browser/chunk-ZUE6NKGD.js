@@ -1,1 +1,0 @@
-import{D as o,G as n}from"./chunk-4PCG4N47.js";var r=(()=>{let t=class t{generate(){return`tui_${t.autoId++}${Date.now()}`}};t.autoId=0,t.\u0275fac=function(i){return new(i||t)},t.\u0275prov=o({token:t,factory:t.\u0275fac,providedIn:"root"});let e=t;return e})();function g(){return n(r).generate()}export{g as a};
