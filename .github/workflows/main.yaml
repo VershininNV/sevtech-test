@@ -18,11 +18,12 @@ jobs:
           node-version: 24
 
       - name: Build Angular app to prod
+        working-directory: application-for-deploy
         run: npm install && npm run build:prod
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: /dist/sevtevh-test/browser
-          branch: prod  
+          folder: application-for-deploy/dist/browser
+          branch: deploy  
           token: ${{ secrets.GH_TOKEN }}
