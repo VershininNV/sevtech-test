@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1761595781942,
+  "timestamp": 1761596291151,
   "index": "/sevtech-test/index.html",
   "assetGroups": [
     {
@@ -11,14 +11,14 @@
         "ignoreVary": true
       },
       "urls": [
-        "/sevtech-test/chunk-H7GD4EPJ.js",
-        "/sevtech-test/chunk-INU25SM4.js",
-        "/sevtech-test/chunk-OI2WO77I.js",
-        "/sevtech-test/chunk-ORKNVUUD.js",
-        "/sevtech-test/chunk-YZTIKOJT.js",
+        "/sevtech-test/chunk-64LWNLBP.js",
+        "/sevtech-test/chunk-6MRJ7JUJ.js",
+        "/sevtech-test/chunk-LBJ2526B.js",
+        "/sevtech-test/chunk-T42QXPM5.js",
+        "/sevtech-test/chunk-ZHKGHGOA.js",
         "/sevtech-test/favicon.ico",
         "/sevtech-test/index.html",
-        "/sevtech-test/main-DTPJH7NX.js",
+        "/sevtech-test/main-4UZGFLMF.js",
         "/sevtech-test/manifest.webmanifest",
         "/sevtech-test/polyfills-5CFQRCPP.js",
         "/sevtech-test/styles-2ENEPTHG.css"
@@ -8078,11 +8078,11 @@
     "/sevtech-test/assets/taiga-ui/icons/zoom-in.svg": "0b6708bc4f01a2ef56b851841e8af817ecbeb1fd",
     "/sevtech-test/assets/taiga-ui/icons/zoom-out-filled.svg": "2375a2dc138f75cecc59625dfbab6e630939f0d9",
     "/sevtech-test/assets/taiga-ui/icons/zoom-out.svg": "d3bd47ee87f118fbc4a21d8c38ec7b77ce2b89fd",
-    "/sevtech-test/chunk-H7GD4EPJ.js": "a197d9e008ab3fb8ec5d0c000d315be6646d1fe9",
-    "/sevtech-test/chunk-INU25SM4.js": "722f142231700ef144325476be8b7f4a314e4f21",
-    "/sevtech-test/chunk-OI2WO77I.js": "f8c91c3873cc0237dfeaabdafaee59ac634a7e84",
-    "/sevtech-test/chunk-ORKNVUUD.js": "55a6f358a5d32d287d7814ce197b571b227291e3",
-    "/sevtech-test/chunk-YZTIKOJT.js": "a961ac9fa722496f0679f83667372ed03712bfb0",
+    "/sevtech-test/chunk-64LWNLBP.js": "a930c8ce87106d6f5e09c215ea21b990328288c8",
+    "/sevtech-test/chunk-6MRJ7JUJ.js": "abb830614a1569dfa23706788228882b289ef790",
+    "/sevtech-test/chunk-LBJ2526B.js": "faab06d3d3c2fb0d8e0748af695f277bf4656f4d",
+    "/sevtech-test/chunk-T42QXPM5.js": "7414f7b3ebbd4e82ae732251dbdd7b2399d1a155",
+    "/sevtech-test/chunk-ZHKGHGOA.js": "3b922b44a030437ca7b0778f6da4cec89a2e0448",
     "/sevtech-test/favicon.ico": "b1293532b5c8049d45e3f703809b6c34adbca950",
     "/sevtech-test/icons/icon-128x128.png": "cfd435a37543260017881839b280cfcd6f36da06",
     "/sevtech-test/icons/icon-144x144.png": "0fca71265eb8e4c6f4cd7fffbe068bbf9f06761c",
@@ -8092,8 +8092,8 @@
     "/sevtech-test/icons/icon-512x512.png": "5da1bf6971cde86c2d778fd73ce78909fc75adca",
     "/sevtech-test/icons/icon-72x72.png": "4717fdc0c9a5efdff4ea1f197f3fb122a9faf9b2",
     "/sevtech-test/icons/icon-96x96.png": "194895be9291f4590fc7db493f0739dc9247694b",
-    "/sevtech-test/index.html": "93999b4f4ccb7b7dfce3a22fd59924a5d7056474",
-    "/sevtech-test/main-DTPJH7NX.js": "c8d18bc66efd334b7c0d694416c7e653a5dad28e",
+    "/sevtech-test/index.html": "8d9b520e08346c3015a22cf51f597a0e53436c11",
+    "/sevtech-test/main-4UZGFLMF.js": "a38ea09044a9d2025f6e382d965bb75e6faa72d8",
     "/sevtech-test/manifest.webmanifest": "155abe4f336501eb063a2f5c4d9a76f9822d8473",
     "/sevtech-test/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
     "/sevtech-test/styles-2ENEPTHG.css": "84eb3d6b02df7aca3c43abbddf6d70aaf49e86cc"
