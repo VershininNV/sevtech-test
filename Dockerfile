@@ -1,8 +1,18 @@
-FROM node:24-alpine as build
+FROM node:24-alpine AS build
 
 WORKDIR /app
 
+COPY package.json ./
+
+COPY package-lock.json ./
+
+RUN npm ci
+
+RUN npm install -g @angular/cli
+
 COPY . .
+
+RUN npm run build
 
 FROM nginx:latest
 
